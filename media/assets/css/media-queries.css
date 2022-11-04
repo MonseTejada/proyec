@@ -1,0 +1,196 @@
+@media only screen and (max-width: 1206px) {
+	.icon-block .h-link-wrap {
+		height: 55px;
+	}
+
+	.h-navetec-link {
+		padding-top: 14px;
+	}
+
+	.h-construye-link {
+		padding-top: 14px;
+	}
+
+	.h-rent-link {
+		padding-top: 14px;
+	}
+}
+
+@media only screen and (max-width: 1199px) {
+
+	.parallax img {
+		width: 125%;
+	}
+
+	.icon-block .logo-link-wrap {
+		height: 60px;
+	}
+
+	.logo-navetec-link {
+		height: 36px;
+	}
+
+	.logo-construye-link {
+		height: 60px;
+	}
+
+	.logo-rent-link {
+		height: 49px;
+	}
+
+	.logo-habitta-link {
+		height: 33px;
+	}
+
+	.icon-block .logo-navetec-link {
+		margin-top: 12px;
+	}
+
+	.icon-block .logo-rent-link {
+		margin-top: 6px;
+	}
+
+	.icon-block .logo-habitta-link {
+		margin-top: 14px;
+	}
+
+	.icon-block .h-link-wrap {
+		height: auto;
+	}
+
+	.h-navetec-link {
+		padding-top: 0;
+	}
+
+	.h-construye-link {
+		padding-top: 0;
+	}
+
+	.h-rent-link {
+		padding-top: 0;
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.icon-block .h-link-wrap {
+		height: 55px;
+	}
+
+	.h-navetec-link {
+		padding-top: 14px;
+	}
+
+	.h-construye-link {
+		padding-top: 14px;
+	}
+
+	.h-rent-link {
+		padding-top: 14px;
+	}
+}
+
+@media only screen and (max-width: 1019px) {
+	.h-navetec-link {
+		padding-top: 0;
+	}
+}
+
+
+@media only screen and (max-width: 992px) {
+
+	.icon-block .h-link-wrap {
+		height: auto;
+	}
+
+	.h-navetec-link {
+		padding-top: 0;
+	}
+
+	.h-construye-link {
+		padding-top: 0;
+	}
+
+	.h-rent-link {
+		padding-top: 0;
+	}
+
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+
+	#inicio .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.h1 {
+		font-size: 7vw;
+	}
+}
+
+@media only screen and (max-width: 916px) {
+	.parallax img {
+		width: 150%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.parallax img {
+		width: 166%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.parallax img {
+		width: 180%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+	.navbar-fixed {
+		height: 64px !important;
+	}
+
+	nav .brand-logo #logo {
+		height: 36px;
+		margin: 10px 0 0 24px;
+	}
+
+	.sidenav {
+		width: 300px;
+	}
+
+	#inicio .section {
+		top: 0;
+	}
+
+	.parallax-container {
+		min-height: 420px;
+	}
+
+	#inicio .section {
+		margin-top: 0;
+	}
+
+	.h1 {
+		font-size: 10vw;
+	}
+
+	.contact-footer {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	#login-page {
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.h1 {
+		font-size: 13vw;
+	}
+}

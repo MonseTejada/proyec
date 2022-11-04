@@ -1,0 +1,398 @@
+/* General
+========================================================================== */
+
+/********* Text **********/
+
+h1, .ht {
+	font-family: futuraMed;
+}
+
+p, h5, h4 {
+	font-family: futuraLight;
+}
+
+p {
+	line-height: 2rem;
+	font-size: 17px;
+}
+
+.result-q th h5, .result-q td h5 {
+	font-family: futuraMed;
+	font-size: 21px;
+}
+
+.align-left {
+	text-align: left;
+}
+
+/********* Position **********/
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-20 {
+	margin-bottom: 20px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mb-50 {
+	margin-bottom: 50px;
+}
+
+.mt-100 {
+	margin-top: 100px;
+}
+
+.mb-100 {
+	margin-bottom: 100px;
+}
+
+/********* Size **********/
+
+.pt-20 {
+	padding-top: 20px;
+}
+
+.pb-20 {
+	padding-bottom: 20px;
+}
+
+.pt-50 {
+	padding-top: 50px;
+}
+
+.pb-50 {
+	padding-bottom: 50px;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+
+/********* backgrounds **********/
+
+.cc-red-bg {
+	background-color: #ae2f32;
+}
+
+.cc-blue-bg {
+	background-color: #15234a;
+}
+
+.cc-gray-bg {
+	background-color: #969798;
+}
+
+.cc-dark-bg {
+	background-color: #494e5f;
+}
+
+.dark-bg {
+	background-color: #5F6368;
+}
+
+.f7-bg {
+	background-color: #F7F7F7;
+}
+
+.lightgray-bg {
+	background-color: #FAFAFA;
+}
+
+.classic-blue-bg {
+	background-color: #0f4c81;
+}
+
+.cc-blue0-bg {
+	background-color: #254369;
+}
+
+.cc-blue1-bg {
+	background-color: #667d93;
+}
+
+.cc-blue2-bg {
+	background-color: #61859d;
+}
+
+.portada {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/********* Fonts **********/
+
+@font-face {
+	font-family: futuraLight;
+	src: url(../fonts/Futura/FuturaPTLight.otf);
+}
+
+@font-face {
+	font-family: futuraMed;
+	src: url(../fonts/Futura/FuturaPTMedium.otf);
+}
+
+@font-face {
+	font-family: futuraDemi;
+	src: url(../fonts/Futura/FuturaPTDemi.otf);
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+.material-icons {
+	font-family: 'Material Icons';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 1;
+	letter-spacing: normal;
+	text-transform: none;
+	display: inline-block;
+	white-space: nowrap;
+	word-wrap: normal;
+	direction: ltr;
+	-webkit-font-feature-settings: 'liga';
+	-webkit-font-smoothing: antialiased;
+}
+
+.material-icons.md-34 {
+	font-size: 34px;
+}
+
+.material-icons.md-30 {
+	font-size: 30px;
+}
+
+i {
+	color: #494e5f;
+}
+
+.cc-red-text {
+	color: #ae2f32;
+}
+
+.cc-blue-text {
+	color: #15234a;
+}
+
+.cc-gray-text {
+	color: #969798;
+}
+
+.cc-dark-text {
+	color: #494e5f;
+}
+
+.dark-text {
+	color: #5F6368;
+}
+
+.f7-text {
+	color: #F7F7F7F7;
+}
+
+/********* Inputs **********/
+
+.page-footer .input-field input, .page-footer .input-field textarea {
+	color: #fff;
+	border-bottom: 1px solid #F7F7F7 !important;
+	box-shadow: 0 1px 0 0 #F7F7F7 !important;	box-shadow: none;
+}
+
+.page-footer .input-field input:focus, .page-footer .input-field textarea:focus {
+	border-bottom: 1px solid #FFFFFF !important;
+	box-shadow: none;
+}
+
+.page-footer .input-field input:focus + label, .page-footer .input-field textarea:focus + label {
+	color: #FFFFFF !important;
+}
+
+.page-footer .input-field label {
+	color: #F7F7F7;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+-webkit-appearance: none; 
+margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.quote-btn .btn, .quote-btn .btn-large {
+	font-family: futuraDemi;
+	font-weight: lighter;
+}
+
+.quote-btn .btn {
+}
+
+.quote-btn .btn:hover {
+	background-color: #254369;
+}
+
+.quote-btn .btn-large:hover {
+	background-color: #61859d;
+}
+
+.waves-effect.waves-red .waves-ripple {
+	background-color: #ae2f32;
+}
+
+.waves-effect.waves-blue .waves-ripple {
+	background-color: #254369;
+}
+
+.hamburger-wrapper {
+	padding: 7px 6px 0 6px;
+}
+
+.hamburger {
+	width: 24px;
+	height: 24px;
+}
+
+.hamburger svg {
+	width: 24px;
+	height: 24px;
+}
+
+.footer-form .btn {
+	box-shadow: none;
+	color: #494e5f;
+	width: 100%;
+}
+
+.footer-form .btn:hover {
+	background-color: #61859d;
+}
+
+.export-to-excel-btn {
+	width: 100%;
+	background-color: #2E7D32;
+}
+
+.export-to-excel-btn svg {
+	margin-top: 3px;
+}
+
+
+/* Index
+========================================================================== */
+
+nav .brand-logo {
+}
+
+nav .brand-logo #logo {
+	height: 42px;
+	margin: 11px 0 0 50px;
+}
+
+.parallax-container {
+	min-height: 520px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255,255,255,.9);
+}
+
+.parallax img {
+	width: 100%;
+}
+
+#inicio .section {
+	margin-top: 61px;
+}
+
+.parallax-container .section {
+	width: 100%;
+}
+
+.icon-block {
+	padding: 50px 15px;
+	text-align: center;
+}
+
+.icon-block .logo-link-wrap {
+	height: 75px;
+}
+
+.logo-navetec-link {
+	height: 50px;
+}
+
+.logo-construye-link {
+	height: 75px;
+}
+
+.logo-rent-link {
+	height: 64px;
+}
+
+.logo-habitta-link {
+	height: 48px;
+}
+
+.icon-block .logo-navetec-link {
+	margin-top: 7px;
+}
+
+.icon-block .logo-rent-link {
+	margin-top: 6px;
+}
+
+.icon-block .logo-habitta-link {
+	margin-top: 17px;
+}
+
+.logo-sherpa {
+	height: 100px;
+}
+
+.social-icons {
+	width: 100%;
+}
+
+.social-icons:last-child {
+	font-size: 12px;
+}
+
+.social-icons li:not(:first-child) {
+	margin-right: 16px;
+}
+
+footer.page-footer {
+	margin: 0;
+}
+
+/* Login
+========================================================================== */
+
+#login-page {
+	width: 500px;
+}
+
+.card {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-moz-transform: translate(-50%, -50%)
+	-webkit-transform: translate(-50%, -50%)
+	-ms-transform: translate(-50%, -50%)
+	-o-transform: translate(-50%, -50%)
+	transform: translate(-50%, -50%);
+}

@@ -1,0 +1,29 @@
+.business-park-map {
+  width: 100%;
+}
+
+.map_container {
+  width: 680px;
+  margin: 0 auto;
+}
+
+.blue03_nvt-bg {
+  background-color: #85afc6;
+}
+
+.blue_nvt-bg {
+  background-color: #1f49b6;
+}
+
+.nvt-sprite-2 {
+	fill:#1F49B6;
+}
+
+.nvt-sprite-1 {
+	fill:#002C55;
+}
+
+.ae-property-active-bg {
+	background: rgb(103,120,140);
+	background: linear-gradient(90deg, #1F49B6 0%, #1F49B6 50%, #002C55 50%, #002C55 100%);
+}

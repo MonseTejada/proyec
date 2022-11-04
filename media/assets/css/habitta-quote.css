@@ -1,0 +1,136 @@
+body {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.quote-map {
+	position: relative;
+	width: 1900px;
+	enable-background: new 0 0 784.2 434.2;
+}
+
+.quote-plano {
+	overflow: visible;
+	enable-background: new;
+}
+
+.quote-solid-bg {
+	fill:none;
+}
+
+.pb-sprite-1 {
+	fill: #5170A2;
+	fill: transparent;
+}
+
+.pb-sprite-2 {
+	fill: #687388;
+	fill: transparent;
+}
+
+.vl-sprite-1 {
+	fill:#525330;
+}
+
+.vl-sprite-2 {
+	fill:#38462d;
+}
+
+.vl-cedro-border {
+	fill:none;stroke:#525330;
+	stroke-miterlimit:10;
+	stroke-width:1.82px;
+}
+
+.quote-condo-txt-bg {
+	fill: #2B436D;
+	enable-background: new;
+}
+
+.quote-condo-txt {
+	fill:#FFFFFF;
+}
+
+.property {
+	stroke: LightGray;
+}
+
+.property-active {
+	cursor: pointer;
+	outline: none;
+	pointer-events: initial;
+}
+
+.property-active:hover {
+	fill: #4CAF50;
+}
+
+.property-strategic {
+	fill: #3f4448;
+	background-color: #3f4448;
+}
+
+.property-in-process {
+	fill: #C85F71;
+	background-color: #C85F71;
+}
+
+.property-apart-inventary {
+	fill: rgb(105, 68, 0);
+	background-color: rgb(105, 68, 0);
+}
+
+.property-hooked {
+	fill: #E3AE3C;
+	background-color: #E3AE3C;
+}
+
+.property-sold {
+	fill: #74B2AD;
+	background-color: #74B2AD;
+}
+
+.pb__apart {
+	fill: #E3AE3C;
+	pointer-events: none;
+}
+
+.quote-icon-tap {
+	height: 20px;
+	float: right;
+}
+
+.color-block {
+	width: 25px;
+	height: 25px;
+}
+
+.pb-property-active-bg {
+	background: rgb(103,120,140);
+	background: linear-gradient(90deg, #5170A2 0%, #5170A2 50%, #687388 50%, #687388 100%);
+}
+
+.vl-property-active-bg {
+	background: rgb(103,120,140);
+	background: linear-gradient(90deg, #525330 0%, #525330 50%, #38462d 50%, #38462d 100%);
+}
+
+.logo-quote {
+	width: 64px;
+}
+
+.logo-habitta-quote {
+	width: 96px;
+	float: right;
+}
+
+.vl-master_plan {
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	.portto_blanco-quote-header h1 {
+		font-size: 40px;
+	}
+}

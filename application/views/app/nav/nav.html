@@ -1,0 +1,94 @@
+
+<md-sidenav class="cc-sidenav md-sidenav-left md-whiteframe-4dp" md-component-id="left">
+    <md-toolbar class="md-hue-2">
+        <h1 class="md-toolbar-tools">GENERATING PROGRESS</h1>
+    </md-toolbar>
+    <a href="#!/habitta" ng-click="close()">
+        <div class="link-body link-dev valign-wrapper">
+            <span class="" style="width: 66%;">Desarrollo Habitacional</span><img class="" src="media/assets/img/logos/logo-habitta.svg" height="18">
+        </div>
+    </a>
+    <md-divider></md-divider>
+    <a href="#!/Navetec" ng-click="close()">
+        <div class="link-body link-dev valign-wrapper">
+            <span class="" style="width: 66%;">Desarrollo Industrial</span><img class="" src="media/assets/img/logos/logo-navetec.svg" height="28">
+        </div>
+    </a>
+    <!-- <md-divider></md-divider>
+    <a href="" ng-click="close()">
+        <div class="link-body link-dev valign-wrapper">
+            <span class="" style="width: 66%;">Construcción</span><img class="" src="media/assets/img/logos/logo-construye.svg" height="34">
+        </div>
+    </a>
+    <md-divider></md-divider>
+    <a href="" ng-click="close()">
+        <div class="link-body link-dev valign-wrapper">
+            <span class="" style="width: 66%;">Renta de Maquinaria</span><img class="" src="media/assets/img/logos/logo-rent.svg" height="28">
+        </div>
+    </a> -->
+    <md-toolbar class="md-hue-2">
+        <h1 class="md-toolbar-tools">NAVEGACIÓN</h1>
+    </md-toolbar>
+    <a href="#!/dashboard" ng-click="close()">
+        <div class="link-body link-nav">
+            Clientes
+        </div>
+    </a>
+    <md-divider></md-divider>
+    <a href="#!/users" ng-click="close()">
+        <div class="link-body link-nav">
+            Usuarios
+        </div>
+    </a>
+    <md-divider></md-divider>
+    <a href="#!/inventario" ng-click="close()">
+        <div class="link-body link-nav">
+            Inventario
+        </div>
+    </a>
+    <!--md-divider></md-divider>
+    <a href="#!/ccimaid" ng-click="close()">
+        <div class="link-body link-nav">
+            CCIMAID
+        </div>
+    </a>
+    <md-divider></md-divider>
+    <a href="#!/politicas_procedimientos" ng-click="close()">
+        <div class="link-body link-nav">
+            Políticas y Procedimientos
+        </div>
+    </a-->
+    
+    <md-divider></md-divider>
+    <a href="#!/Cambiar_Contraseña" ng-click="close()">
+        <div class="link-body link-nav">
+            Cambiar contraseña
+        </div>
+    </a>
+    <md-divider></md-divider>
+    <a href="#!/login" ng-click="close()">
+        <div class="link-body link-nav">
+            Cerrar sesión
+        </div>
+    </a>
+    <md-divider></md-divider>
+    
+    
+    
+</md-sidenav>
+
+<div ng-controller="sideNavCtrl">
+    <div class="dark__bg pl-20 pr-10 py-10 overflow-h" layout="row" style="height:48px;">
+
+        <div layout="row" layout-align="start center" flex="70">
+            <a href="#!" style="padding-top:6px;"><img src="media/assets/img/logos/logo-white.png" height="24"></a>
+        </div>
+
+        <div layout="row" layout-align="end center" flex="30">
+            <md-button class="md-icon-button md-noink" ng-click="toggleLeft()">
+                <svg viewBox="0 0 24 24" width="24"><path d="M3,18h18v-2H3V18z M3,13h18v-2H3V13z M3,6v2h18V6H3z" class="lightgray__fill"></path></svg>
+            </md-button>
+        </div>
+
+    </div>
+</div>

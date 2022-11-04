@@ -1,0 +1,443 @@
+.bg-degradado-azul{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#003261+0,021d49+100 */
+background: #003261; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #003261 0%, #021d49 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #003261 0%,#021d49 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #003261 0%,#021d49 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#003261', endColorstr='#021d49',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.header-home{
+    background-image: url('../img/home/portada-v2.jpg');
+    height: 92vh;
+    background-size: cover;
+}
+
+.header-habitta{
+    background-image: url('../img/habitta/header-portada.jpg');
+    height: 92vh;
+    background-size: cover;
+}
+
+
+.bg-fondo-pixel{
+    background-image: url('../img/home/club-porttoblanco.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 60vh;
+}
+.bg-transparente{
+    height: 100%;
+    width: 100%;
+    background-color: #15234a87; 
+}
+
+.header-title{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: 3rem;
+    flex-direction: column;
+}
+
+.line{
+    background-color: #021D49;
+    text-align: center;
+    color: white;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
+.line h2{
+    margin: 0;
+    font-size: 2rem !important;
+}
+.main-container-1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+@media (max-width: 1200px) {
+    .main-container-1200 {
+      width: 100%;
+    }
+  }
+
+/* logos de las marcas  */
+#logo-habitta{
+    margin-top: .5rem;
+    height: 3rem;
+}
+#logo-navetec{
+    margin-top: .5rem;
+    height: 3rem;
+}
+#logo-construye{
+    height: 4rem;
+}
+#logo-rentsolutions{
+    height: 4rem;
+    
+}
+#logo-capitalccima{
+    
+}
+
+.marcas{
+    padding: 50px 0 ;
+}
+
+.marcas figure {
+    margin: 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border-radius: 5px;  
+}
+figure .img-marcas{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease;
+}
+
+.marcas .img-marcas:hover{
+    transform: scale(1.2);
+}
+.cont-marcas{
+    margin-top: 2rem;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.marcas-r{
+    align-items: flex-end;
+}
+.marcas-l{
+    align-items: flex-start;
+}
+
+.marcas h3{
+    font-size: 1.2rem;
+}
+.promociones{
+    padding-right: 2rem;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.logos-habitta-cont{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    margin: 1rem;
+}
+
+.header-square{
+    height: 23.5vh;
+}
+
+
+
+.square-img{
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+
+}
+.square-color{
+    background-color: #021D49;
+}
+.square-color-c{
+    background-color: #021D49;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.square-color-m{
+    width: 100%;
+    background-color: #021d49ba;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/* logos */
+
+#navetec_w {
+    transition: all ease 500ms;
+    width: 150px;
+}
+#contruye_w {
+    transition: all ease 500ms;
+    width: 100px;
+}
+#porttoblanco_w{
+    transition: all ease 500ms;
+    width: 130px;
+}
+#capital_ccima{
+    transition: all ease 500ms;
+width: 80px;
+}
+#rentSolution{
+    transition: all ease 500ms;
+width: 100px;
+}
+#aliadoSherpa{
+    transition: all ease 500ms;
+    width: 80px;
+}
+#navetec_w:hover,
+#contruye_w:hover,
+#porttoblanco_w:hover,
+#capital_ccima:hover,
+#rentSolution:hover, 
+#aliadoSherpa:hover{
+    transform: scale(1.5);
+}
+@media (max-width: 992px)
+{
+    #navetec_w {
+        transition: all ease 500ms;
+        width: 60px;
+    }
+    #contruye_w {
+        transition: all ease 500ms;
+        width: 50px;
+    }
+    #porttoblanco_w{
+        transition: all ease 500ms;
+        width: 60px;
+    }
+    #capital_ccima{
+        transition: all ease 500ms;
+        width: 40px;
+    }
+    #rentSolution{
+        transition: all ease 500ms;
+        width: 50px;
+    }
+    #aliadoSherpa{
+        transition: all ease 500ms;
+        width: 40px;
+    }
+}
+@media (max-width: 600px) {
+    #navetec_w {
+        transition: all ease 500ms;
+        width: 60px;
+    }
+    #contruye_w {
+        transition: all ease 500ms;
+        width: 60px;
+    }
+    #porttoblanco_w{
+        transition: all ease 500ms;
+        width: 70px;
+    }
+    #capital_ccima{
+        transition: all ease 500ms;
+        width: 60px;
+    }
+    #rentSolution{
+        transition: all ease 500ms;
+        width: 70px;
+    }
+    #aliadoSherpa{
+        transition: all ease 500ms;
+        width: 60px;
+    }
+}
+
+
+#bg_navetec{
+    background-image: url('../img/home/bg/bg-navetec.jpg');
+}
+#bg_porttoblanco{
+background-image: url('../img/home/bg/bg-porttoblanco.jpg');
+}
+#bg_rent{
+background-image: url('../img/home/bg/bg_rent-solutions.jpg');
+}
+#bg_costruye{
+    background-image: url('../img/home/bg/costruye.jpg');
+}
+#bg_capital-ccima{
+    background-image: url('../img/home/bg/capital-ccima.jpg');
+}
+#bg_sherpa{
+    background-image: url('../img/home/bg/bg-sherpa.jpg');
+}
+
+.bg-header-main{
+    width: 100% !important;
+    height: 94vh;
+    background-image: url('../img/home/bg/portada.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.bg-header-lanzamiento{
+ 
+    background-position: 50% 50%;
+    height: 94vh;
+    background-image: url('../img/home/bg/lanzamiento.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg_transparent{
+    width: 100%;
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#021d49+0,021d49+100&1+0,0.22+100 */
+    background: -moz-linear-gradient(45deg,  rgba(2,29,73,1) 0%, rgba(2,29,73,0.22) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(2,29,73,1) 0%,rgba(2,29,73,0.22) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(2,29,73,1) 0%,rgb(2 29 73 / 10%) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#021d49', endColorstr='#38021d49',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.lago-cluster{
+    background-color: #003261;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+.lago-cluster a{
+    color: #fff;
+}
+.home-titulo{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.home-titulo > h1,
+.home-titulo > h5{
+    text-align: center;
+    /* padding-right: 64px; */
+}
+
+/* #logos-empresa-2{
+     display: none; 
+}  */
+@media (max-width: 1200px){
+    .home-titulo > h1,
+    .home-titulo > h5{
+    padding-right: 16px;
+    padding-left: 16px;
+    text-align: center;
+    }
+}
+@media (max-width: 992px) {
+    
+    .home-titulo > h1{
+        font-size: 2rem !important;
+    }
+    .home-titulo > h5{
+        font-size: 1.7rem !important; 
+    }
+    .home-titulo > h1,
+    .home-titulo > h5{
+    padding-right: 0px;
+    text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .header-square{
+        height: 25vh;
+    }
+    #logos-empresa-1{
+        display: none;
+    } 
+    #logos-empresa-2{
+        display: unset;
+    } 
+    .bg-header-main {
+      height: 45vh;
+      background-position: center top;
+    }
+    .bg-header-lanzamiento{
+        height: 45vh;
+        background-position: center top;
+    }
+    .home-titulo{
+        align-items: center;
+    }
+    .home-titulo > h1{
+        font-size: 2rem !important;
+    }
+    .home-titulo > h5{
+        font-size: 1.7rem !important; 
+    }
+    .home-titulo > h1,
+    .home-titulo > h5{
+        padding: 16px;
+        text-align: center;
+    }
+    .lago-cluster{
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .home-titulo > h1{
+        font-size: 1.5rem !important;
+    }
+    .home-titulo > h5{
+        font-size: 1rem !important; 
+    }
+}
+
+
+/* CUENTA REGRESIVA  */
+.regresiva{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-family: futuraDemi;
+    padding-bottom: 20px;
+}
+.countdown-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.big-number{
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin-bottom: 0px;
+    
+}
+.title-regresiva{
+    font-size: 3rem;
+}
+@media (max-width:768px) {
+    .countdown-container{
+        width: 90%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }   
+    .big-number{
+        color: #fff;
+        font-size: 3.5rem !important; 
+        font-weight: 700;
+        margin-bottom: 0px;
+    }
+}
+

@@ -1,0 +1,270 @@
+body {
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.logo__quote {
+	width: 320px;
+}
+
+.property {
+	stroke: LightGray;
+}
+
+.no__fill {
+	fill: transparent;
+}
+
+.white__stroke{
+	stroke:#FFFFFF;
+	stroke-width:1.0053;
+	stroke-miterlimit:10;
+}
+
+.property__active {
+	cursor: pointer;
+	outline: none;
+	pointer-events: initial;
+}
+
+.property-active {
+	cursor: pointer;
+	outline: none;
+	pointer-events: initial;
+}
+
+.property-active:hover {
+	fill: #4CAF50;
+}
+
+.property-active:hover .property{
+	fill: #4CAF50;
+}
+
+.property-in-process {
+	fill: #C85F71;
+	background-color: #C85F71;
+}
+
+.property-apart-inventary {
+	fill: rgb(105, 68, 0);
+	background-color: rgb(105, 68, 0);
+}
+
+.property-hooked {
+	fill: #E3AE3C;
+	background-color: #E3AE3C;
+}
+
+.property-strategic {
+	fill: #3f4448;
+	background-color: #3f4448;
+}
+
+.property-sold {
+	fill: #74B2AD;
+	background-color: #74B2AD;
+}
+
+.property-apart {
+	fill: #E3AE3C;
+	pointer-events: none;
+}
+
+.property__active:hover .property {
+	fill: #4CAF50;
+}
+
+.property-in-process .property {
+	fill: #C85F71;
+}
+
+.property-apart-inventary .property {
+	fill: rgb(105, 68, 0);
+}
+
+.property-hooked .property {
+	fill: #E3AE3C;
+}
+
+.property-sold .property {
+	fill: #74B2AD;
+}
+
+.property-strategic .property {
+	fill: #3f4448;
+}
+
+.pb__apart .property {
+	fill: #E3AE3C;
+	pointer-events: none;
+}
+
+.white__fill {
+  fill: white;
+}
+
+.blue__fill {
+  fill:#16284B;
+}
+
+.blue0__fill{fill:#001D7E;}
+
+.mustard__fill {
+	fill: #F1CF00;
+}
+
+.mustard__dl__fill {
+	fill: #D2A84D;
+}
+
+.mustard__dr__fill {
+	fill: #A28D62;
+}
+
+.quote__map {
+  width: 1366px;
+  margin: 10%;
+}
+
+.quote-plano {
+	width: 1366px;
+	overflow: visible;
+	enable-background: new;
+}
+
+.desierto__heading {
+  font-size: 30.2651px;
+}
+
+.fs__30__px {
+	font-size: 30px;
+}
+
+.fs__6-8__px {
+	font-size: 6.9px;
+}
+
+.fs__7_px {
+	font-size: 7px;
+}
+
+.fs__8__px {
+	font-size: 8px;
+}
+
+.fs__3-6__px {
+	font-size: 3.6px;
+}
+
+.fs__4__px {
+	font-size: 4px;
+}
+
+.fs__2-6__px {
+	font-size: 2.6px;
+}
+
+.quote-solid-bg {
+	fill: none;
+}
+
+.pb-property-active-bg {
+	background: rgb(103,120,140);
+	background: linear-gradient(90deg, #5170A2 0%, #5170A2 50%, #687388 50%, #687388 100%);
+}
+
+.pb__apart__bg {
+  background-color: #E3AE3C;
+}
+
+.pb-sprite-1 {
+	fill: #5170A2;
+}
+
+.pb-sprite-2 {
+	fill: #687388;
+}
+
+.nvt-sprite-2 {
+	fill:#1F49B6;
+}
+
+.nvt-sprite-1 {
+	fill:#002C55;
+}
+
+.pb__condo {
+  cursor: pointer;
+}
+
+.pb__condo-bg {
+  fill: transparent;
+}
+
+.pb__condo:hover .pb__condo-bg {
+  fill: #5170A2;
+}
+
+.pb__apart {
+  fill: #E3AE3C;
+  pointer-events: none;
+}
+
+.vl-sprite-1 {
+	fill:#525330;
+}
+
+.vl-sprite-2 {
+	fill:#38462d;
+}
+
+.vl-cedro-border {
+	fill:none;stroke:#525330;
+	stroke-miterlimit:10;
+	stroke-width:1.82px;
+}
+
+.quote-condo-txt-bg {
+	fill: #2B436D;
+	enable-background: new;
+}
+
+.quote-condo-txt {
+	fill:#FFFFFF;
+}
+
+.quote-icon-tap {
+	height: 20px;
+	float: right;
+}
+
+.color-block {
+	width: 25px;
+	height: 25px;
+}
+
+.vl-property-active-bg {
+	background: rgb(103,120,140);
+	background: linear-gradient(90deg, #525330 0%, #525330 50%, #38462d 50%, #38462d 100%);
+}
+
+.logo-quote {
+	width: 64px;
+}
+
+.logo-habitta-quote {
+	width: 96px;
+	float: right;
+}
+
+.vl-master_plan {
+	width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+	.portto_blanco-quote-header h1 {
+		font-size: 40px;
+	}
+}

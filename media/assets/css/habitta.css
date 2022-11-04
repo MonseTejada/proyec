@@ -1,0 +1,221 @@
+/********** General **********/
+
+html, body {
+	height: 100vh;
+}
+
+/********** Typography **********/
+
+h1, h2, h3, h4, h5 {
+	font-family: futuraDemi;
+}
+
+.ph {
+	font-size: 20px;
+}
+
+p {
+	font-family: futuraLight;
+}
+
+/* Fonts */
+
+@font-face {
+	font-family: futuraLight;
+	src: url(../fonts/Futura/FuturaPTLight.otf);
+}
+
+@font-face {
+	font-family: futuraMed;
+	src: url(../fonts/Futura/FuturaPTMedium.otf);
+}
+
+@font-face {
+	font-family: futuraDemi;
+	src: url(../fonts/Futura/FuturaPTDemi.otf);
+}
+
+/********** Layout **********/
+
+.pb-blue-bg {
+	background-color: #002B53;
+}
+
+.vl-teal-bg {
+	background-color: #009999;
+}
+
+.vw100 {
+	width: 100vw;
+}
+
+.w50 {
+	width: 50%;
+}
+
+.vh100 {
+	height: 100vh;
+}
+
+.py-80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.py-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.portada {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.centerit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+.logo-habitta {
+	width: 300px;
+}
+
+.left-bg {
+	background-image: url(../img/habitta/portto-blanco/portto-blanco.jpg);
+	float: left;
+}
+
+.right-bg {
+	background-image: url(../img/habitta/veredas-lira/veredas-lira.jpg);
+	float: right;
+}
+
+.habitta_container {
+	max-width: 75%;
+	height: 640px;
+	padding: 0 20px;
+	background-color: rgba(255, 255, 255, .75);
+	border-radius: 16px;
+}
+
+.habitta_container .row {
+	position: relative;
+}
+
+.desarrollos_container a {
+	color: #000;
+}
+
+.pb-logo-wrap {
+	left: 0;
+	bottom: 0;
+}
+
+.vl-logo-wrap {
+	right: 0;
+	bottom: 0;
+}
+
+.pb-logo-wrap:hover {
+	background-color: rgba(0, 43, 83, .6);
+}
+
+.vl-logo-wrap:hover {
+	background-color: rgba(0, 153, 153, .6);
+}
+
+.pb-logo-wrap:hover .ph {
+	color: #fff;
+}
+
+.vl-logo-wrap:hover .ph {
+	color: #fff;
+}
+
+.logo-dev-wrap {
+	height: 150px;
+}
+
+.logo-dev-wrap img {
+	margin: 0 auto;
+}
+
+.pb-logo-wrap .logo-dev-wrap img {
+	width: 148px;
+}
+
+.vl-logo-wrap .logo-dev-wrap img {
+	width: 164px;
+}
+
+@media only screen and (max-width: 600px) {
+
+	.habitta_container {
+		max-width: 75%;
+		height: 500px;
+		padding: 0 20px;
+		background-color: rgba(255, 255, 255, .75);
+		border-radius: 16px;
+	}
+
+	.logo-habitta {
+		width: 200px;
+	}
+
+	.logo-habitta-wrap {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	h5 {
+		font-size: 20px;
+	}
+
+	.pb-logo-wrap img {
+		width: 100px;
+	}
+
+	.vl-logo-wrap img {
+		width: 120px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.logo-dev-wrap {
+		position: static;
+	}
+
+	.logo-dev-wrap {
+		height: 100px;
+	}
+
+	.pb-logo-wrap .logo-dev-wrap img {
+		width: 94px;
+	}
+
+	.vl-logo-wrap .logo-dev-wrap img {
+		width: 100px;
+	}
+
+	.pb-logo-wrap {
+		background-color: rgba(0, 43, 83, .2);
+	}
+
+	.vl-logo-wrap {
+		background-color: rgba(0, 153, 153, .2);
+	}
+}

@@ -1,0 +1,401 @@
+
+/********** Typography **********/
+
+h1 {
+	font-family: futuraMed;
+}
+
+p, h5, h4 {
+	font-family: futuraLight;
+}
+
+p {
+	font-size: 16px;
+}
+
+.headline-header {
+	font-size: 4.19rem;
+}
+
+/* Fonts */
+
+@font-face {
+	font-family: futuraLight;
+	src: url(../fonts/Futura/FuturaPTLight.otf);
+}
+
+@font-face {
+	font-family: futuraMed;
+	src: url(../fonts/Futura/FuturaPTMedium.otf);
+}
+
+@font-face {
+	font-family: futuraDemi;
+	src: url(../fonts/Futura/FuturaPTDemi.otf);
+}
+
+/* Text color */
+
+.cc-blue-text {
+	color: #15234a;
+}
+
+/********** Layout **********/
+
+.cc-red-bg {
+	background-color: #ae2f32;
+}
+
+.cc-blue-bg {
+	background-color: #15234a;
+}
+
+.cc-gray-bg {
+	background-color: #969798;
+}
+
+.cc-blue2-bg {
+	background-color: #61859d;
+}
+
+.cc-blue0-bg {
+	background-color: #254369;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.w75 {
+	width: 75%;
+}
+
+.h100 {
+	height: 100%;
+}
+
+.p-420 {
+	padding: 40px 20px;
+}
+
+.py-80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.pb-80 {
+	padding-bottom: 80px;
+}
+
+.py-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.pb-40 {
+	padding-bottom: 40px;
+}
+
+.py-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pb-20 {
+	padding-bottom: 20px;
+}
+
+.py-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/********** Position **********/
+
+.absolute {
+	position: absolute;
+}
+
+.relative {
+	position: relative;
+}
+
+.centerit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+/********** Video **********/
+
+#video-header-wrap {
+	opacity: 0;
+}
+
+.play-video {
+	z-index: 1004;
+	opacity: 1;
+}
+
+.video-wrap {
+	z-index: -1;
+	position: absolute;
+}
+
+/********** Buttons **********/
+
+/* Large */
+
+.btn-lg {
+	font-family: futuraDemi;
+	font-weight: lighter;
+	padding: 5px 20px;
+	margin-top: 0px;
+}
+
+/* Play */
+
+
+.play {
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    z-index: 9;
+}
+
+.play-logo {
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+	border-left: 16px solid #61859d;
+	border-bottom: 9px solid transparent;
+	left: 2px;
+}
+
+.play-fx {
+	background-color: rgba(255, 255, 255, .5);
+	width: 66px;
+	height: 66px;
+	border-radius: 50%;
+	animation: playFx 2.4s infinite ease-out;
+	content: "";
+}
+
+.play-fx-in {
+	animation: playFxIn 2.4s infinite ease-out;
+	background-color: rgba(255, 255, 255, .4);
+	border: 1px #afafaf solid;
+}
+
+.play-btn {
+	background-color: transparent;
+	cursor: pointer;
+	width: 73px;
+    height: 73px;
+    border-radius: 50%;
+}
+
+@keyframes playFx {
+	from {
+	} to {
+		transform: scale(3);
+		opacity: 0;
+	}
+}
+
+@keyframes playFxIn {
+	from {
+	} to {
+		transform: scale(2.3);
+		opacity: 0;
+	}
+}
+
+/* Form Footer */
+
+.page-footer .input-field input, .page-footer .input-field textarea {
+	color: #fff;
+	border-bottom: 1px solid #F7F7F7 !important;
+	box-shadow: 0 1px 0 0 #F7F7F7 !important;	box-shadow: none;
+}
+
+.page-footer .input-field input:focus, .page-footer .input-field textarea:focus {
+	border-bottom: 1px solid #FFFFFF !important;
+	box-shadow: none;
+}
+
+.page-footer .input-field input:focus + label, .page-footer .input-field textarea:focus + label {
+	color: #FFFFFF !important;
+}
+
+.page-footer .input-field label {
+	color: #F7F7F7;
+}
+
+/********** Sidenav **********/
+
+md-sidenav {
+	position: fixed;
+}
+
+.cc-sidenav {
+	z-index: 999;
+}
+
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:not(.md-menu-toolbar), .md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised {
+	background-color: #254369;
+}
+
+
+.link-body {
+	padding: 30px 20px;
+	color: #254369;
+}
+
+.link-body:hover {
+	background-color: #F0F0F0;
+}
+
+.link-dev {
+	padding: 0px 20px;
+	height: 64px;
+}
+
+.link-nav {
+	padding: 10px 20px;
+}
+
+md-backdrop.md-sidenav-backdrop {
+	z-index: 998;
+	position: fixed;
+}
+
+/********** Nav **********/
+
+.cc-nav {
+    height: 64px;
+    line-height: 64px;
+    overflow: hidden;
+}
+
+.cc-nav ul a {
+	color: #336699;
+	font-family: futuraLight;
+	font-size: 1.2rem;
+}
+
+.cc-nav i, .cc-nav [class^="mdi-"], .cc-nav [class*="mdi-"], .cc-nav i.material-icons {
+    height: 64px;
+    line-height: 64px;
+}
+
+.cc-nav .button-collapse i {
+    height: 64px;
+    line-height: 64px;
+}
+
+.cc-nav .nav-logo img { 
+    height: 36px;
+    margin-top: 14px; 
+}
+
+/********** Header **********/
+
+.portada {
+	width: 100%;
+}
+
+.header-content {
+	width: 90%;
+}
+
+.header-wrap {
+	top: 0;
+}
+
+.desctiption-br {
+	display: none;
+}
+
+/********** Nosotros **********/
+
+.nosotros-img-wrap {
+	height: 50px;
+}
+
+.habitta-logo {
+	margin-top: 6px;
+}
+
+/* Video */
+
+.video-section {
+	overflow: hidden;
+}
+
+.video-section img {
+	width: 100%;
+}
+
+/********** Footer **********/
+
+.contact-footer ul li {
+	font-size: 1.2rem;
+}
+
+/* Social Icons */
+
+.social-icons li:not(:first-child) {
+	margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.header-content {
+		width: 96%;
+	}
+
+	.headline-header {
+		font-size: 2.6rem;
+	}
+
+	.header-description {
+		font-size: 1.4rem;
+	}
+
+	.desctiption-br {
+		display: block;
+	}
+
+	.contact-footer {
+		margin-top: 50px;
+		text-align: center;
+	}
+
+	.video-section {
+		margin-left: -25%;
+	}
+
+	.video-section img {
+		width: 125%;
+	}
+
+	.cc-play {
+		left: 25%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.video-section .portada {
+		width: 125%;
+		margin-left: -16%;
+	}
+
+	.desctiption-br {
+		display: none;
+	}
+}

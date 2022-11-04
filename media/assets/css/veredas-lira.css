@@ -1,0 +1,53 @@
+.vl-teal-text {
+	color: #009999;
+}
+
+.vl-darkteal-text {
+	color: #0A4F5E;
+}
+
+.vl-teal-bg {
+	background-color: #009999;
+}
+
+.vl-darkteal-bg {
+	background-color: #006666;
+}
+
+
+nav ul a {
+	color: #009999;
+}
+
+.header-heading {
+	top: 20%;
+}
+
+nav .brand-logo {
+    margin-top: 30px;
+}
+
+nav .brand-logo .logo-pb {
+    height: 68px;
+}
+
+.sidenav-logo {
+	margin: 19px 0 0 94px;
+	height: 68px;
+}
+
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:not(.md-menu-toolbar), .md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised {
+	background-color: #009999;
+}
+
+@media only screen and (max-width: 992px) {
+	nav .brand-logo {
+	    margin-top: 10px;
+	    margin-left: 0px;
+	    padding: 0 20px !important;
+	}
+
+	nav .brand-logo .logo-pb { 
+	    height: 50px; 
+	}
+}

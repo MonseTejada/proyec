@@ -1,0 +1,360 @@
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+@font-face{
+    font-family: "FuturaPTMed";
+    src: url(../fonts/FuturaPTMedium.otf);
+}
+
+@font-face{
+    font-family: "FuturaPTBook";
+    src: url(../fonts/FuturaPTBook.otf);
+}
+
+@font-face{
+    font-family: "FuturaPTLight";
+    src: url(../fonts/FuturaPTLight.otf);
+}
+
+body{
+    overflow-x: hidden;
+}
+img
+{
+    width: 100%;
+}
+.c-text-az{
+    color: #0E2C56;
+}
+h2{
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #0E2C56;
+}
+h3{
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    font-size: 36px   ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #0E2C56;
+}
+.b-az{
+    color: #3B73B5;
+    background-color: #ECEFF1;
+    border-color: #d3d9df;
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    font-size: 26px;
+    border-radius: 15px;
+    padding: 0px 15px;
+}
+
+.b-primario{
+    color: #ECEFF1;
+    background-color: #0E2C56;
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    font-size: 26px;
+    margin: 0 30px;
+    border-radius: 0;
+    padding: 10px 15px;
+}
+.b-secundario{
+    color: #0E2C56; 
+    background-color:#ECEFF1; 
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    font-size: 26px;
+    border-radius: 0;
+    padding: 10px 60px;
+}
+.b-form{
+    color: #ECEFF1;
+    background-color: #0E2C56;
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    font-size: 26px;
+    margin: 30px 0 ;
+    border-radius: 0;
+    width: 100%;
+}
+
+
+.b-primario:hover{
+    cursor: pointer;
+    color:  #0E2C56;
+    background-color: #ECEFF1;
+}
+
+.b-az:hover{
+    color: #ECEFF1;
+    background-color:  #3B73B5;
+    cursor: pointer;
+}
+.a-cc{
+    font-family: "FuturaPTMed",sans-serif, Verdana;
+    color :#0E2C56;
+    font-size: 20px;
+}
+.bg-gris{
+    background-color: #ECEFF1;
+}
+.bg-azul{
+    background-color:  #0E2C56;
+    color: #FFFFFF;
+}
+.t-center{
+    text-align: center;
+}
+.promo{
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.promo p{
+    padding: 3px;
+    font-family: "FuturaPTMed";
+    font-size: 16px;
+    color: #FFFFFF;
+
+}
+.navegacion{
+    margin-top: 96px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+@media (min-width: 768px){
+    .promo p{
+        font-size: 20px;   
+    }   
+    .navegacion{
+        margin-top: 55px;
+    }
+}
+
+.commilas{
+    width: 30px;
+    height:30px;
+}
+.logo-nav{
+    width: 147px;
+    height: 37px;
+}
+
+.cont-b{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.cont-b .c-bullets{
+    flex: 1;
+}
+
+.section-ccima{
+    padding: 100px 0 100px 0 ;
+}
+
+.hero{
+    margin-top:100px;
+    background-image: url(../img/navetec_portada.jpg);
+    width: 100vw;
+    height: 90vh;
+    background-position: top;
+    background-size: cover;
+    padding:  45px 40px;
+}
+.hero-logo{
+    width: 163px;
+    height:  64px;
+}
+.hero-text-p{
+    font-weight: 400;
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    color: #0E2C56;
+    font-size: 35px;
+}
+.hero-text-sub{
+
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    color: #0E2C56;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px){
+    .hero-logo{
+        width: 489px;
+        height:  184px;
+    }
+    .hero-text-p{
+        font-size: 60px;
+    }
+    .hero-text-sub{
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+}
+.problemas img{
+    width:100%;
+}
+.bg-frase{
+    width: 100%;
+    height: 60vh;
+    background-image: url(../img/navetec_gamma.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pasos{
+    background-image: url(../img/pasos.png);
+    width: 767px;
+    height: 442px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon-plan{
+    width: 50px;
+    height: 50px;
+}
+.bullets{
+    display: flex;
+    padding: 0 20px;
+}
+.bullets .icon-bullets{
+    width: 15px;
+    height: 15px;
+    margin-top: 5px;
+
+}
+.bullets p{
+    padding-left: 10px;
+    
+}
+.frase p{
+    color: #0E2C56;
+    font-family: "FuturaPTMed", sans-serif, verdana;
+    font-size: 22px;
+
+}
+
+.comi-2{
+    transform: rotate(-180deg);
+}
+
+.c-numeros .numeros{
+    font-family: "FuturaPTBook", sans-serif, Verdana;
+    font-size: 60px;
+    text-align: center;
+}
+.c-numeros .num-des{
+    font-family: "FuturaPTBook", sans-serif, Verdana;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.cont-cir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.circulo{ 
+    position: absolute;
+    top:-5  0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B73B5;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    text-align: center;
+}
+.circulo-d{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F1F1F1;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+.cir-tex{
+    font-family: "FuturaPTMed";
+    font-size: 50px;
+}
+
+.glider-contain{
+    position: relative;
+}
+
+.glider-prev,
+.glider-next{
+    position: absolute;
+	display: block;
+	width: 30px;
+	height: 30px;
+	border: none;
+	top: calc(50% - 35px);
+	cursor: pointer;
+	line-height: 30px;
+	text-align: center;
+	background: none;
+	color: #0E2C56;
+	opacity: 20%;
+}
+.glider{
+    overflow: hidden;
+}
+.cuadro{
+    min-height: 300px;
+    background-color: #0E2C56;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    text-align: center;
+    border-radius:  0 0 250px 250px;
+}
+.cuadro .cuadro-texto{
+    padding: 0 20px 0 20px;
+    font-size: 36px;
+    font-family: "FuturaPTMed", sans-serif, Verdana;
+    text-align: center;
+    color: #FfFfFf;   
+    margin-bottom: 60px;
+    min-height: 200px;
+}
+.cuadro .cuadro-icono{
+    text-align: center;
+}
+.plan-financ{
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.beneficios{
+    text-align: center;
+}
+.cont-beneficios{
+    justify-content: space-evenly;
+}
+.beneficios img{
+    width: 50%;
+}
+.beneficios p {
+    font-family: "FuturaPTMed";
+    font-size: 26px;
+    color: #0E2C56;
+}
+.cta h3, .cta h2{
+    color: #FFFFFF;
+}
+.form-ccima{
+    justify-content: center;
+}

@@ -1,0 +1,737 @@
+html {
+	scroll-behavior: smooth
+}
+
+h1 {
+	font-family: futuraBook !important;
+	font-size: 4rem;
+}
+
+h2, h3, h4 {
+	font-family: futuraBook;
+}
+
+@font-face {
+	font-family: futuraLight;
+	src: url(../fonts/Futura/FuturaPTLight.otf);
+}
+
+@font-face {
+	font-family: futuraMed;
+	src: url(../fonts/Futura/FuturaPTMedium.otf);
+}
+
+@font-face {
+	font-family: futuraBook;
+	src: url(../fonts/Futura/FuturaPTBook.otf);
+}
+
+@font-face {
+	font-family: futuraDemi;
+	src: url(../fonts/Futura/FuturaPTDemi.otf);
+}
+
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: url(../fonts/materialicons/v50/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+.futura-demi {
+	font-family: futuraDemi;
+	font-weight: bolder;
+}
+
+.futura-med {
+	font-family: futuraMed;
+}
+
+.futura-light {
+	font-family: futuraLight;
+}
+
+.futura-book {
+	font-family: futuraBook;
+}
+
+.pb-light-text {
+	color: #F6F4EF;
+}
+
+.pb-dark-text {
+	color: #211915;
+}
+
+.pb-gray-text {
+	color: #6F768D;
+}
+
+.pb-blue-text {
+	color: #002B53;
+}
+
+.pb-teal-text {
+	color: #74B2AD;
+}
+
+/*** Layout ***/
+
+.navbar-fixed {
+   z-index: 998; 
+}
+
+.portada {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.pb-blue-bg {
+	background-color: #002B53;
+}
+
+.pb-gray-bg {
+	background-color: #6F768D;
+}
+
+.pb-red-bg {
+	background-color: #C85F71;
+}
+
+.pb-blue0-bg {
+	background-color: #48A3CD;
+}
+
+.pb-blue1-bg {
+	background-color: #74A8B9;
+}
+
+.pb-mustard-bg {
+	background-color: #E3AE3C;
+}
+
+.pb-light-bg {
+	background-color: #F6F4EF;
+}
+
+.pb-blue2-bg {
+	background-color: #4D78A7;
+}
+
+.pb-teal-bg {
+	background-color: #74B2AD;
+}
+
+.pb-dark-bg {
+	background-color: #211915;
+}
+
+.pb-blue3-bg {
+	background-color: #336699;
+}
+
+.no-shadows {
+    box-shadow: none !important;
+}
+
+.py {
+	padding: 40px 0;
+}
+
+.ptop {
+	padding-top: 40px;
+}
+
+.p-420 {
+	padding: 40px 20px;
+}
+
+.py-80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.pb-80 {
+	padding-bottom: 80px;
+}
+
+.py-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.px-40 {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.pb-40 {
+	padding-bottom: 40px;
+}
+
+.py-20 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.pb-20 {
+	padding-bottom: 20px;
+}
+
+.py-10 {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*** Input ***/
+
+.md-button {
+	margin: 0;
+}
+
+.btn, .btn-large {
+	font-weight: bolder;
+}
+
+.btn-flat {
+	font-weight: lighter;
+}
+
+.quote-item .btn:hover {
+	background-color: #74B2AD;
+}
+
+.footer-form .btn {
+	box-shadow: none;
+	color: #494e5f;
+	width: 100%;
+}
+
+.footer-form .btn:hover {
+	background-color: #61859d;
+}
+
+footer .input-field input, footer .input-field textarea {
+	color: #fff;
+	border-bottom: 1px solid #F7F7F7 !important;
+	box-shadow: 0 1px 0 0 #F7F7F7 !important;
+	box-shadow: none;
+}
+
+footer .input-field input:focus, footer .input-field textarea:focus {
+	border-bottom: 1px solid #FFFFFF !important;
+	box-shadow: none;
+}
+
+footer .input-field input:focus + label, footer .input-field textarea:focus + label {
+	color: #FFFFFF !important;
+}
+
+footer .input-field label {
+	color: #F7F7F7;
+}
+
+.md-dialog-container, md-backdrop.md-dialog-backdrop .md-scroll-mask {
+	z-index: 1000;
+	position: fixed;
+	height: 100vh;
+}
+
+/********** Sidenav **********/
+
+md-sidenav {
+	position: fixed;
+}
+
+.cc-sidenav {
+	z-index: 999;
+}
+
+md-toolbar.md-default-theme.md-hue-2:not(.md-menu-toolbar), md-toolbar.md-hue-2:not(.md-menu-toolbar), .md-button.md-default-theme.md-primary.md-fab, .md-button.md-primary.md-fab, .md-button.md-default-theme.md-primary.md-raised, .md-button.md-primary.md-raised {
+	background-color: #336699;
+}
+
+md-toolbar h1 {
+	font-family: futuraBook;
+}
+
+.link-sidenav {
+	padding: 10px 20px;
+	color: #254369;
+}
+
+.link-sidenav:hover {
+	background-color: #F0F0F0;
+}
+
+md-backdrop.md-sidenav-backdrop {
+	z-index: 999;
+	position: fixed;
+}
+
+.md-open-menu-container, md-backdrop.md-menu-backdrop {
+	z-index: 1001;
+}
+
+/*** Nav ***/
+
+nav {
+    height: 84px;
+    line-height: 84px;
+}
+
+nav ul a {
+	color: #336699;
+	font-family: futuraLight;
+	font-size: 1.2rem;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 84px;
+    line-height: 84px;
+}
+
+nav .button-collapse i {
+    height: 84px;
+    line-height: 84px;
+}
+
+nav .brand-logo {
+    margin-top: 24px;
+    margin-left: 24px;
+    padding: 0 24px;
+}
+
+nav .brand-logo .logo-pb { 
+    height: 96px; 
+}
+
+.nav-menu {
+	margin-left: 194px;
+}
+
+.sidenav-logo {
+	margin: 19px 0 0 103.7px;
+	height: 84px;
+}
+
+/*** Header ***/
+
+.portto-container {
+	width: 97%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header-img {
+	margin-left: 20%;
+	width: 80%;
+	overflow: hidden;
+}
+
+.header-img img {
+	width: 100%;
+}
+
+.header-heading {
+	position: absolute;
+	top: 18%;
+	font-family: futuraDemi;
+}
+
+/*** Section 1 ***/
+
+.section1 {
+	margin-top: -40px;
+	width: 100%;
+	padding: 40px 0;
+}
+
+.hbg {
+	padding: 10px 0;
+}
+
+.promos {
+	padding: 20px 0 20px 0;
+}
+
+.prom1 img {
+	width: 64%;
+}
+
+.prom3 img {
+	width: 50%;
+}
+
+.master-plan {
+	width: 100%;
+	height: auto;
+}
+
+.amenidades .row .col {
+	padding: 20px 0;
+}
+
+.amenidades .row .col img {
+	height: 40px;
+	width: auto;
+}
+
+.amenidades .row .col h5 {
+	color: #F6F4EF;
+}
+
+.map-portto {
+	position: relative;
+}
+
+.map-portto img {
+	width: 64%;
+}
+
+.map-heading {
+	position: absolute;
+	left: 55%;
+}
+
+.map-portto h2 {
+	top: 25%;
+}
+
+.map-portto h4 {
+	top: 50%;
+}
+
+.plano-lote {
+	width: 600px;
+}
+
+/********** Footer **********/
+
+.contact-footer ul li {
+	font-size: 1.2rem;
+}
+
+/* Social Icons */
+
+.social-icons li:not(:first-child) {
+	margin-right: 20px;
+}
+
+.banner-promo-header {
+}
+
+@media only screen and (max-width: 992px) {
+
+	.py {
+		padding: 20px 0;
+	}
+
+	nav {
+	    height: 64px;
+	    line-height: 64px;
+	}
+
+	nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+	    height: 64px;
+	    line-height: 64px;
+	}
+
+	nav .button-collapse i {
+	    height: 64px;
+	    line-height: 64px;
+	}
+
+	nav .brand-logo {
+	    margin-top: 20px;
+	    margin-left: 0px;
+	    padding: 0 20px !important;
+	}
+
+	nav .brand-logo .logo-pb { 
+	    height: 64px; 
+	}
+
+	.portto-container {
+		width: 100%;
+		margin: 0;
+		position: initial;
+	}
+
+	.header-img {
+		margin: 0 auto;
+		width: 97.5%;
+	}
+
+	.header-img img {
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.prom1 img {
+		width: auto;
+		height: 125px;
+	}
+
+	.prom2 img {
+		width: auto;
+		height: 100px;
+		margin-top: 50px;
+	}
+
+	.prom3 img {
+		width: auto;
+		height: 130px;
+		margin-top: 60px;
+	}
+
+	.header-heading {
+		text-align: center;
+		position: initial;
+		font-size: 2.8rem;
+		padding: 16px 0;
+	}
+
+	.section1 {
+		margin-top: 0px;
+	}
+
+	.hbg {
+		font-size: 2.6rem;
+	}
+
+	.headline-2 {
+		font-size: 2.6rem;
+	}
+
+	.amenidades .row .col h3 {
+		font-size: 2.6rem;
+	}
+
+	.map-portto img {
+		width: 100%;
+	}
+
+	.map-heading {
+		text-align: right;
+		left: 0;
+		right: 24px;
+	}
+
+	.map-portto h2 {
+		font-size: 2.8rem;
+		top: 40%;
+	}
+
+	.map-portto h4 {
+		font-size: 2.4rem;
+		top: 60%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.map-portto h2 {
+		font-size: 2rem;
+		top: 44%;
+	}
+
+	.map-portto h4 {
+		font-size: 1.6rem;
+		top: 70%;
+	}
+
+	.plano-lote {
+		width: 90%;
+	}
+
+	.dialog-panel {
+		padding: 20px;
+	}
+
+	.banner-promo-header {
+		font-size: 42px;
+	}
+}
+
+/*galeria de VR*/
+.vr .row .col a h5 {
+	color: #F6F4EF;
+}
+.vr .row .col a img {
+	height: 120px;
+	width: auto;
+	border: 3px solid #002B53;
+	margin-top: 35px;
+}
+
+/**mapa de San Luis Potosí**/
+.map-portto-slp img{
+	width: 100%;
+}
+
+.map-heading-slp{
+    text-align: center;
+}
+
+@media only screen and (min-width: 991px) {
+
+	.map-portto-slp img{
+		width: 71%;
+		float: right;
+	}
+	
+	.map-heading-slp{
+		position: absolute;
+		left: 14%;
+		margin-top: 250px;
+	}
+
+}
+
+.header-video{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.video-hero
+{
+    width: 100%;
+}
+.video-texto{
+
+}
+.banderin {
+    width: 350px;
+    position: relative;
+    left: -35px
+}
+
+.text-hero-m {
+    position: relative;
+    float: right;
+    top: 60px;
+}
+
+.text-hero-m .desde {
+    font-size: 40px
+}
+z
+.text-hero-m .precio {
+    font-size: 150px;
+}
+
+.text-hero-m .mensualidad {
+    letter-spacing: 1px;
+    font-size: 80px;
+}
+@media (max-width:1200px) {
+    .banderin {
+        width: 200px;
+        left: 0
+    }
+    .text-hero-m {
+        position: relative;
+        float: right;
+        top: 50px;
+    }
+    .text-hero-m .desde {
+        font-size: 30px
+    }
+    
+    .text-hero-m .precio {
+        font-size: 90px;
+        
+    }
+    
+    .text-hero-m .mensualidad {
+        letter-spacing: 1px;
+        font-size: 50px;
+        
+    }
+    .n-item-text {
+        font-size: 1rem;
+    }
+
+}
+@media (max-width:768px) {
+    #bg-header {
+        background-image: url(../img/bg/portto-blanco-portada.jpg)
+    }
+    .n-item-text {
+        font-size: .7rem;
+    }
+    .banderin {
+        width: 100px;
+        left: 0
+    }
+    .text-hero-m {
+        position: relative;
+        float: right;
+        top: 50px;
+    }
+    .text-hero-m .desde,
+    .text-hero-m .mensualidad,
+    .text-hero-m .precio {
+        font-size: 2rem;
+        text-align: center
+    }
+    .ame-ex-condo {
+        padding-top: 1rem;
+        margin-right: 2rem;
+    }
+
+    .ubicacion-box {
+        position: unset
+    }
+
+    .ubicacion-lista {
+        padding-left: 0
+    }
+
+    .aliado-sherpa {
+        align-items: center
+    }
+
+    .aliado-sherpa h3 {
+        text-align: center
+    }
+
+    #office-boder {
+        border-right: none;
+        border-bottom: 2px solid #00a5ce;
+        margin-bottom: 30px
+    }
+
+    #office-principal {
+        padding-left: 12px
+    }
+
+    .social-media {
+        align-items: center;
+        padding-top: 30px
+    }
+
+    #face-icon {
+        padding-left: 0
+    }
+
+    .video-header {
+        display: none
+    }
+}
+@media (max-width:500px){
+    .text-hero-m {
+        position: relative;
+        float: right;
+        top: 20px;
+    }
+    .text-hero-m .desde,
+    .text-hero-m .mensualidad,
+    .text-hero-m .precio {
+        font-size: 1.5rem;
+        text-align: center
+    }
+}
+
